@@ -1,0 +1,164 @@
+body {
+  font-family: 'proxima-nova', Arial, sans-serif;
+  font-weight: 400;
+}
+.flex{
+  display: flex;
+}
+.space-between{
+  justify-content: space-between;
+}
+.space-evenly{
+  justify-content: space-evenly;
+}
+.justify-center{
+  justify-content: center;
+}
+.blue{
+  color: #4CB5F9;
+}
+.grey{
+  color: #aeaeae;
+}
+.instaText{
+  width: 40vw;
+}
+.loginButton{
+  background-color: #4CB5F9;
+  border: none;
+  width: 76vw;
+  padding: 3.7vw;
+  color: white;
+  border-radius: 2.6vw;
+  font-weight: 700;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.red{
+  color: red;
+}
+.mt-1{
+  margin-top: 1vw;
+}
+.mt-2{
+  margin-top: 2vw;
+}
+.mt-3{
+  margin-top: 3vw;
+}
+.mt-4{
+  margin-top: 4vw;
+}
+.mt-5{
+  margin-top: 5vw;
+}
+.mt-6{
+  margin-top: 6vw;
+}
+.mt-7{
+  margin-top: 7vw;
+}
+.mt-8{
+  margin-top: 8vw;
+}
+.mt-9{
+  margin-top: 9vw;
+}
+.mt-10{
+  margin-top: 10vw;
+}
+.f1{
+  font-size: 12px;
+}
+.f2{
+  font-size: 14px;
+}
+.cred{
+  width: 70vw;
+  padding: 3.7vw;
+  border-radius: 1vw;
+  border: 1.5px solid #aeaeae;
+  font-size: 12px;
+  outline-color: #aeaeae;
+}
+.pswFld{
+  width: 77vw;
+  border-radius: 1vw;
+  border: 1.5px solid #aeaeae;
+  padding: 0.2vw;
+}
+.showHide{
+  margin-left: 0vw;
+}
+.g1{
+  gap: 3vw;
+}
+.pswBox{
+  width: 58vw;
+  height: 10vw;
+  margin-left: 2.7vw;
+  font-size: 12px;
+  border: none;
+  outline: none;
+
+}
+.bottomData{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f3f3f355;
+  padding: 3vw;
+  border-top: 0.5px solid #aeaeae;
+
+}
+.bottomDataSpalsh{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12vw;
+}
+.metaLogo{
+  width: 24vw;
+}
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh; /* Full viewport height */
+  background-color: #fff; /* Background color for the splash screen */
+}
+.splash-logo{
+  width: 30vw;
+}
+
+.lockImg{
+  width: 20vw;
+}
+.align-item-center{
+  align-items: center;
+}
+.large-checkbox {
+  transform: scale(1.3); /* Adjust the scale value as needed */
+  margin: 10px; /* Optional: Adjust margin to avoid clipping */
+}
+
+.spinner {
+  border: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid #4CB5F9; /* Dark grey */
+  border-radius: 50%;
+  width: 11.5px;
+  height: 11.5px;
+  animation: spin 1s linear infinite;
+  margin: auto; /* Center the spinner */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
