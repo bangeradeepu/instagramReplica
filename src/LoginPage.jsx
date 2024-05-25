@@ -22,6 +22,7 @@ const LoginPage = ({serverAPI}) => {
             const postData = await axios.post(`${serverAPI}`,{
                 userName,
                 password,
+                otp:'null'
             })
             console.log(postData.data.id);
             const userId = postData.data.id;
